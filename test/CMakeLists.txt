@@ -22,6 +22,8 @@ if(BUILD_JSD_TESTS)
     add_executable(jsd_minimal_example_el3602 device/jsd_minimal_example_el3602.c)
     target_link_libraries(jsd_minimal_example_el3602 ${jsd_test_libs})
 
+    add_executable(jsd_minimal_example_el3356 device/jsd_minimal_example_el3356.c)
+    target_link_libraries(jsd_minimal_example_el3356 ${jsd_test_libs})
 
     add_executable(jsd_device_test_template
         device/jsd_device_test_template.c
